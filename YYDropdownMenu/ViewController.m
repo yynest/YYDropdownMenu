@@ -7,8 +7,18 @@
 //
 
 #import "ViewController.h"
+#import "TestViewController.h"
 
-@interface ViewController ()
+#import "Test3ViewController.h"
+
+@interface ViewController (){
+    
+}
+
+- (IBAction)clicked1:(id)sender;
+- (IBAction)clicked2:(id)sender;
+- (IBAction)clicked3:(id)sender;
+
 
 @end
 
@@ -16,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +34,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)clicked1:(id)sender {
+    [self.navigationController pushViewController:[[TestViewController alloc] init] animated:YES];
+}
+
+- (IBAction)clicked2:(id)sender {
+    
+}
+
+- (IBAction)clicked3:(id)sender {
+    [self.navigationController pushViewController:[[Test3ViewController alloc] init] animated:YES];
+}
 @end
