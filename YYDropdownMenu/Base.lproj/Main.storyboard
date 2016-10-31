@@ -53,24 +53,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRJ-Q6-9W6">
-                                <frame key="frameInset" minX="274" minY="152" width="52" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRJ-Q6-9W6">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="X5g-3f-OAL"/>
+                                    <constraint firstAttribute="height" constant="30" id="uh2-ly-fpo"/>
+                                </constraints>
                                 <state key="normal" title="Button1"/>
                                 <connections>
                                     <segue destination="1tw-3j-6nK" kind="push" id="bJg-qU-zLF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O84-1E-WoP">
-                                <frame key="frameInset" minX="274" minY="257" width="55" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O84-1E-WoP">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="ULO-a3-u4R"/>
+                                    <constraint firstAttribute="height" constant="17" id="vnj-iS-O1m"/>
+                                </constraints>
                                 <state key="normal" title="Button2"/>
                                 <connections>
                                     <action selector="clicked2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wKT-Ne-OxX"/>
                                     <segue destination="D0J-69-eDe" kind="push" id="Z7Q-m5-PQf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGv-ye-F6p">
-                                <frame key="frameInset" minX="274" minY="327" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGv-ye-F6p">
                                 <state key="normal" title="Button3"/>
                                 <connections>
                                     <action selector="clicked3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YaZ-mS-AhJ"/>
@@ -79,17 +83,19 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="CRJ-Q6-9W6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AOT-FY-C0Q"/>
-                            <constraint firstItem="O84-1E-WoP" firstAttribute="top" secondItem="CRJ-Q6-9W6" secondAttribute="bottom" constant="75" id="Pt0-Th-emL"/>
-                            <constraint firstItem="CRJ-Q6-9W6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="88" id="WNc-bP-AIf"/>
-                            <constraint firstItem="O84-1E-WoP" firstAttribute="leading" secondItem="CRJ-Q6-9W6" secondAttribute="leading" id="e5K-00-etr"/>
+                            <constraint firstItem="O84-1E-WoP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5d8-nT-MHp"/>
+                            <constraint firstItem="O84-1E-WoP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AW3-Jf-99a"/>
+                            <constraint firstItem="CRJ-Q6-9W6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Elp-Le-Ttc"/>
+                            <constraint firstItem="O84-1E-WoP" firstAttribute="top" secondItem="CRJ-Q6-9W6" secondAttribute="bottom" constant="71" id="FBx-58-Vyv"/>
+                            <constraint firstItem="QGv-ye-F6p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="MFl-ds-AEd"/>
+                            <constraint firstItem="QGv-ye-F6p" firstAttribute="top" secondItem="O84-1E-WoP" secondAttribute="bottom" constant="74" id="h4u-UK-BSG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PCX-0u-yCy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="388" y="403"/>
+            <point key="canvasLocation" x="374" y="403"/>
         </scene>
         <!--Test View Controller-->
         <scene sceneID="8ty-hq-4Gh">
@@ -108,7 +114,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gNz-kN-e87" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="388" y="1131"/>
+            <point key="canvasLocation" x="374" y="1154"/>
         </scene>
     </scenes>
 </document>
