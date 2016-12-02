@@ -284,6 +284,7 @@
 				TargetAttributes = {
 					6A57F0491C489856002FDC8F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SA6BGR8N24;
 					};
 					6A57F0621C489856002FDC8F = {
 						CreatedOnToolsVersion = 7.2;
@@ -503,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SA6BGR8N24;
 				INFOPLIST_FILE = YYDropdownMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qsyj.YYDropdownMenu;
@@ -514,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SA6BGR8N24;
 				INFOPLIST_FILE = YYDropdownMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qsyj.YYDropdownMenu;
